@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.432);
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8XCM4K89zTHTBRLrRmJrH7YS1q8_7tOihTFO14wyC46sozmEuFliaYWDphejTbNWLH5Cw5YYwipo7bDceyBz2w9XjgiEfOFr1pK7TTKwChNfzwjC1bufVgnMwtDtJX1BLZh0H7yfXxzo/s1600/2.714+Mobibrasil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  animation-duration: 5s;
+  animation-name: headerslide;
+  animation-iteration-count: infinite;
+}
+header h1 {
+  padding-top: 50px;
+  font-weight: bolder;
+  color: rgb(255, 249, 249);
+  font-size: 3em;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header div {
+  background-color: rgba(0, 0, 0, 0.425);
+  min-height: 230px;
+}
+header nav {
+  margin-top: 250px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+header nav ul {
+  list-style: none;
+}
+header nav li {
+  padding: 0px 5px;
+  display: inline-block;
+}
+header nav li a {
+  text-decoration: none;
+}
+
+@keyframes headerslide {
+  0% {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8XCM4K89zTHTBRLrRmJrH7YS1q8_7tOihTFO14wyC46sozmEuFliaYWDphejTbNWLH5Cw5YYwipo7bDceyBz2w9XjgiEfOFr1pK7TTKwChNfzwjC1bufVgnMwtDtJX1BLZh0H7yfXxzo/s1600/2.714+Mobibrasil.jpg");
+  }
+  100% {
+    background-image: url("https://i0.wp.com/revistadoonibus.com/wp-content/uploads/2021/07/Sem-Titulo-27-11.jpg");
+  }
+}/*# sourceMappingURL=indx.css.map */
